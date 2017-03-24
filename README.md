@@ -25,6 +25,10 @@ chmod 500 benchmark.out
 ./benchmark.out
 ```
 
+### STREAM benchmark RAM
+The STREAM benchmark is a simple synthetic benchmark program that measures sustainable memory bandwidth (in MB/s) and the corresponding computation rate for simple vector kernels. 
+see http://www.cs.virginia.edu/stream/ref.html
+
 ### SysBench
 SysBench runs a specified number of threads and they all execute requests in parallel. The actual workload produced by requests depends on the specified test mode. You can limit either the total number of requests or the total time for the benchmark, or both.
 ``` bash
